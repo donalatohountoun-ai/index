@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corps de page : centrer la carte */
+body {
+  min-height: 100vh; /* toute la hauteur */
+  display: flex;
+  justify-content: center; /* centre horizontal */
+  align-items: center; /* centre vertical */
+  background: #f5f5f7; /* gris très clair */
+  font-family: system-ui, sans-serif; /* police moderne */
+}
+
+/* La carte */
+.profile-card {
+  width: 320px; /* largeur fixe */
+  background: white;
+  border-radius: 16px; /* coins arrondis */
+  padding: 24px;
+  text-align: center; /* tout centré */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08); /* ombre douce */
+}
+
+/* Photo circulaire */
+.profile-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%; /* rend rond */
+  object-fit: cover; /* pas déformé */
+  border: 3px solid white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 16px;
+}
+
+/* Nom */
+h2 {
+  font-size: 20px;
+  margin-bottom: 6px;
+  color: #111;
+}
+
+/* Role */
+.role {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+/* Bio */
+.bio {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.5; /* espace entre lignes */
+  margin-bottom: 20px;
+}
+
+/* Bouton */
+button {
+  width: 100%; /* prend toute la largeur */
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #35ee1d; /* noir */
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer; /* main au survol */
+}
+
+/* Effet au survol */
+button:hover {
+  background: #333;
+}
